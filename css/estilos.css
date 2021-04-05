@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: "Arial";
@@ -5,6 +11,9 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 #header {
@@ -26,7 +35,8 @@ body {
 }
 
 #footer {
-    height: 3em;
+    height: 6em;
     background-color: violet;
     margin-bottom: 0px;
+    margin-top: auto;
 }
