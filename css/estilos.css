@@ -21,7 +21,7 @@ body {
     padding: 0;
     text-align: left;
     border: 1px solid #ddd;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 #cabecera {
@@ -34,7 +34,7 @@ body {
 }
 
 #cabecera #tagline {
-    padding: 0 0 0 1em;
+    padding: 0 0 0 2em;
     font-weight: normal;
     font-size: 0.8em;
 }
@@ -44,5 +44,6 @@ body {
 }
 
 #post {
-    padding: 1ems;
+    padding: 5ems;
+    margin: 20px;
 }
